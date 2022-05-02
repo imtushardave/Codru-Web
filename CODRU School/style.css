@@ -877,6 +877,8 @@ p {
   #contact .contact-item .contact-info {
     width: 100%;
     text-align: center;
+    color: #000000;
+
   }
 
   /* End contact  */
