@@ -16,6 +16,8 @@ a {
   text-decoration: none;
 }
 
+
+
 .container {
   min-height: 100vh;
   width: 100%;
@@ -643,6 +645,14 @@ p {
   }
 }
 
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: #E1E5EA;
+}
+
 /* Reviews Section Ends */
 
 /* contact Section */
@@ -825,7 +835,7 @@ p {
 
   #about .about .col-left .about-img::after {
     left: -35px;
-    top: 34px;
+    top: 30px;
     height: 98%;
     width: 98%;
     border: 10px solid crimson;
@@ -920,10 +930,10 @@ p {
   }
 }
 
-/* Scroll Up */
+/* Scroll Up button */
 .back-to-top {
   position: fixed;
-  right: 2rem;
+  right: 1rem;
   bottom: 2rem;
   border-radius: 100%;
   background: #BB371A;
@@ -955,5 +965,8 @@ p {
   top: 0;
   left: 0;
 }
+
+
+
 
 /* End  Media Query For Desktop */
