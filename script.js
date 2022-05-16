@@ -62,7 +62,7 @@ backToTopButton.addEventListener("click", goToTop);
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycby7DQxZv09f2h2185BHGZKGGESuuRokczJzWI-OLx2V7HGbj55fL8p5nSRuDfRpGBAc/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz0LjIYrO7V5b_wOHVMXctBsc-lg2Fe-Bjjaf4DI5v2B6yg7X2TRa35xAmdgC-1wdwCrA/exec'
 const form = document.forms['google-sheet']
 form.addEventListener('submit', e => {
 e.preventDefault()
