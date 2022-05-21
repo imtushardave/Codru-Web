@@ -87,6 +87,7 @@ p {
 
 /* Header section */
 #header {
+  cursor: default;
   position: fixed;
   z-index: 1000;
   left: 0;
@@ -232,7 +233,7 @@ p {
 
 /* home Section */
 #home {
-  background-image: url(./img/banner-bg.png);
+  background-image: url(./img/banner1.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -1055,7 +1056,43 @@ p {
   left: 0;
 }
 
+/* Custom Cursor */
 
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1PX solid #9D0B28;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+}
+
+/* .cursor2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  opacity: .3;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width .3s, height .3s, opacity .3s;
+} */
+
+.hover {
+  background-color: #3A4750;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
+}
 
 
 /* End  Media Query For Desktop */
