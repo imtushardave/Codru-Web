@@ -1506,7 +1506,7 @@ li {list-style-type:none;}
   border-image: linear-gradient(to left, #F90716, #FFFFFF) 1 0;
 }
 /* ******************* */
-.scroll-top{
+/* .scroll-top{
   position: fixed;
   bottom: 1rem; right:0.3rem;
   z-index: 1000;
@@ -1515,7 +1515,7 @@ li {list-style-type:none;}
 .scroll-top img{
   width:6rem;
   animation: float 3s linear infinite;
-}
+} */
 
 /* @keyframes float{
   100%, 0%{
